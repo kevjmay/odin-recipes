@@ -1,0 +1,28 @@
+* {
+    background-color: #F3EEEA
+    ;
+    font-family: Verdana, sans-serif;
+}
+
+h1 {
+    color: #776B5D;
+    text-align: center;
+    text-decoration: overline;
+}
+
+h2 {
+    color: #B0A695;
+    text-decoration: underline;
+}
+
+img {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    display: block;
+}
+
+p, ul, ol {
+    color: #776B5D;
+}
