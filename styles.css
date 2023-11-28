@@ -1,3 +1,12 @@
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+
 * {
     background-color: #F3EEEA
     ;
@@ -23,6 +32,19 @@ img {
     display: block;
 }
 
-p, ul, ol {
+p {
     color: #776B5D;
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+}
+
+ul.link {
+    list-style-type: none;
+}
+
+ul.link > li:before {
+    content: " - ";
 }
